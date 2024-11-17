@@ -17,15 +17,26 @@
 
 ---
 
+## Requirements
+
+- **Minimum SDK version**: Android 8.0 (API level 26).
+
 <h2>Installation</h2>
 
-<p>To integrate <b>ExpandableRowChipGroup</b> into your project, add the following dependency to your <code>build.gradle</code> file:</p>
+<p>To integrate <b>ExpandableRowChipGroup</b> into your project, add the following to your <code>build.gradle</code> files:</p>
 
-<pre><code>
-dependencies {
-    implementation("com.github.Tefoxx:ExpandableRowChipGroup:1.0.3")
-}
-</code></pre>
+<p>1. Add JitPack repository</p>
+
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+
+
+<p>2. Add the dependency</p>
+
+    dependencies {
+        implementation("com.github.Tefoxx:ExpandableRowChipGroup:1.0.4")
+    }
 
 ---
 
