@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ExpandableRowChipGroupExample</string>
+    <string name="title"><b>ExpandableRowChipGroup</b>\nCompact and interactive ChipGroup rows</string>
+    <string name="description">A flexible container for displaying and managing multiple chips, with support for customization, spacing, and overflow handling through <u>expand/collapse</u> functionality.</string>
+    <string name="show">Show</string>
+    <string name="hide">Hide</string>
+    <string-array name="greenWords">
+        <item>Forest</item>
+        <item>Meadow</item>
+        <item>Mint</item>
+        <item>Lime</item>
+        <item>Pine</item>
+        <item>Moss</item>
+        <item>Clover</item>
+        <item>Emerald</item>
+        <item>Jade</item>
+        <item>Leaf</item>
+        <item>Avocado</item>
+        <item>Herb</item>
+        <item>Cactus</item>
+        <item>Fern</item>
+    </string-array>
+</resources>

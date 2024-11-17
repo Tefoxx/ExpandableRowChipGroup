@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExpandableRowChipGroup">
+        <attr name="maxRows" format="integer" />
+
+        <attr name="expandChipLayout" format="reference" />
+        <attr name="hideChipLayout" format="reference" />
+
+        <attr name="collapsed" format="boolean" />
+
+    </declare-styleable>
+</resources>
