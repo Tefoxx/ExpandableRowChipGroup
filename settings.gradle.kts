@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ExpandableRowChipGroupExample"
 include(":app")
-include(":ExpandableRowChipGroup")
+include(":expandable-row-chip-group")
