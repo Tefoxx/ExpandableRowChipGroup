@@ -47,13 +47,7 @@ afterEvaluate {
                 from(components.findByName("release"))
                 groupId = "com.ent21"
                 artifactId = "expandable-row-chip-group"
-                version = "1.0"
-            }
-            create<MavenPublication>("mavenDebug") {
-                from(components.findByName("debug"))
-                groupId = "com.ent21"
-                artifactId = "expandable-row-chip-group"
-                version = "1.0"
+                version = "1.0.5"
             }
         }
     }
