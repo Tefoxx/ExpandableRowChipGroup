@@ -1,2 +1,7 @@
 jdk:
   - openjdk17
+before_install:
+  - ./scripts/prepareJitpackEnvironment.sh
+install:
+  - FILE="-Dfile=expandable-row-chip-group-release.aar"
+  - mvn install:install-file $FILE -DgroupId=com.ent21 -DartifactId=expandable-row-chip-group -Dversion=1.0.6 -Dpackaging=aar

@@ -17,11 +17,12 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = true
+            isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            consumerProguardFile("consumer-rules.pro")
         }
     }
     compileOptions {
@@ -40,6 +41,18 @@ android {
         }
     }
 }
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
 afterEvaluate {
     publishing {
         publications {
@@ -47,7 +60,7 @@ afterEvaluate {
                 from(components.findByName("release"))
                 groupId = "com.ent21"
                 artifactId = "expandable-row-chip-group"
-                version = "1.0.5"
+                version = "1.0.6"
             }
         }
     }
