@@ -35,9 +35,9 @@
 <p>2. Add the dependency</p>
 
     dependencies {
-        implementation("com.github.Tefoxx:ExpandableRowChipGroup:1.0.4")
+        implementation("com.github.Tefoxx:ExpandableRowChipGroup:1.0.8")
     }
-
+[![](https://jitpack.io/v/Tefoxx/ExpandableRowChipGroup.svg)](https://jitpack.io/#Tefoxx/ExpandableRowChipGroup)
 ---
 
 <h2>Usage</h2>
