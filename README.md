@@ -28,7 +28,7 @@
 <p>1. Add JitPack repository</p>
 
     repositories {
-        maven { url 'https://jitpack.io' }
+        maven("https://jitpack.io")
     }
 
 
